@@ -61,7 +61,7 @@
 	</parent>
 
 	<properties>
-		<m-orm.version>1.0.1</m-orm.version>
+		<m-orm.version>1.0.2</m-orm.version>
 		<maven_compiler_plugin_version>2.3.2</maven_compiler_plugin_version>
 		<java_source_version>1.8</java_source_version>
 		<java_target_version>1.8</java_target_version>
@@ -71,12 +71,12 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.moolbuy</groupId>
-			<artifactId>m-orm-annotation</artifactId>
+			<artifactId>m-orm-core</artifactId>
 			<version>${m-orm.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.moolbuy</groupId>
-			<artifactId>m-orm-core</artifactId>
+			<artifactId>m-orm-annotation</artifactId>
 			<version>${m-orm.version}</version>
 		</dependency>
 		<dependency>

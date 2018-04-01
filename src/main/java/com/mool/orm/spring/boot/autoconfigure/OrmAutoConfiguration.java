@@ -7,13 +7,13 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.mool.orm.dao.EntityManagerConfig;
-import com.mool.orm.dao.support.IdGenerator;
-import com.mool.orm.dao.support.IdWorker;
-import com.mool.orm.dialect.Dialect;
-import com.mool.orm.dialect.MySQLDialect;
-import com.mool.xsqlbuilder.SafeSqlProcesser;
-import com.mool.xsqlbuilder.safesql.EscapeBackslashAndSingleQuotesSafeSqlProcesser;
+import com.moolbuy.orm.dao.EntityManagerConfig;
+import com.moolbuy.orm.dao.support.IdGenerator;
+import com.moolbuy.orm.dao.support.IdWorker;
+import com.moolbuy.orm.dialect.Dialect;
+import com.moolbuy.orm.dialect.MySQLDialect;
+import com.moolbuy.xsqlbuilder.SafeSqlProcesser;
+import com.moolbuy.xsqlbuilder.safesql.EscapeBackslashAndSingleQuotesSafeSqlProcesser;
 
 
 @Configuration
