@@ -1,9 +1,9 @@
-package com.mool.orm.spring.boot.autoconfigure;
+package com.moolbuy.orm.spring.boot.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 
-@ConfigurationProperties(prefix = "spring.mool.orm")
+@ConfigurationProperties(prefix = "moolbuy.orm")
 public class OrmProperties {
 	
     private String sqlGeneratorClass;  

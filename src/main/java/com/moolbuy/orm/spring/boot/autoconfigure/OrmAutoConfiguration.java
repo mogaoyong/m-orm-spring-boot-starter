@@ -1,4 +1,4 @@
-package com.mool.orm.spring.boot.autoconfigure;
+package com.moolbuy.orm.spring.boot.autoconfigure;
 
 import javax.sql.DataSource;
 
