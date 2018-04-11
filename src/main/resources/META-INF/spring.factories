@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.mool.orm.spring.boot.autoconfigure.OrmAutoConfiguration
+com.moolbuy.orm.spring.boot.autoconfigure.OrmAutoConfiguration
