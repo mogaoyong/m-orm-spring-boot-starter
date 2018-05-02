@@ -262,8 +262,12 @@
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<repository>
+			<!-- 
 			<id>release</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url> 
+			-->
+			<id>maven-releases</id>
+			<url>http://10.39.52.175/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 
